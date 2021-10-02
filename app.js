@@ -19,7 +19,7 @@ function calculateProfitOrLoss(initial, quantity, current){
         showOutput(`Your Loss is ${loss} & Loss percentage is ${lossPercentage}%`,'red');
     }
     else{
-        showOutput(`No profit or loss.`,'white');
+        showOutput(`No profit or loss.`,'black');
     }
 }
 
